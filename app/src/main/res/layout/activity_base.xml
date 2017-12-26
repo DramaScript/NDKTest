@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/btn_boolean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回boolean"/>
+
+    <Button
+        android:id="@+id/btn_byte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回byte"/>
+
+    <Button
+        android:id="@+id/btn_char"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回char"/>
+
+    <Button
+        android:id="@+id/btn_short"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回short"/>
+
+    <Button
+        android:id="@+id/btn_int"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回int"/>
+
+    <Button
+        android:id="@+id/btn_long"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回long"/>
+
+    <Button
+        android:id="@+id/btn_float"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回float"/>
+
+    <Button
+        android:id="@+id/btn_double"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回double"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回String"/>
+
+    <Button
+        android:id="@+id/btn_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回数组"/>
+
+    <Button
+        android:id="@+id/btn_refrance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回自定义对象"/>
+
+    <Button
+        android:id="@+id/btn_array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回对象数组"/>
+
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回对象集合"/>
+
+    <Button
+        android:id="@+id/btn_callback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="回调java层代码"/>
+
+    <Button
+        android:id="@+id/btn_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="在线程中回调"/>
+
+</LinearLayout>
